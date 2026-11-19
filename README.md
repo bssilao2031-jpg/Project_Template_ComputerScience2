@@ -1,4 +1,23 @@
-# Project_Template_ComputerScience2
+## Data Storage
+
+The application will use JSON files for persistent data storage. The records will include student IDs, student names, subjects, quarters, and grades.
+
+## Programming Concepts
+
+- Functions and Arguments
+- Iterative Control Structures
+- Arrays
+- Programming Libraries
+- JSON Data Handling
+
+## Project Documents
+
+- `Daffodil_Project_Proposal.pdf` – Contains the eight sections of the initial project proposal.
+- `Student_Grade_Tracker_Wireframe.pdf` – Contains the sample application screens and program flow.
+
+## Project Status
+
+**Project Milestone 1 – Project Proposal and Planning**# Project_Template_ComputerScience2
 
 # 📊 Data Insights Dashboard Project
 
