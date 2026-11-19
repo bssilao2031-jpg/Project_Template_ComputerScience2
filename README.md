@@ -27,42 +27,29 @@ This repository serves as a STARTER TEMPLATE for the Yearlong Programming Projec
 
 ## Project Overview
 
-The Student Grade Tracker is a data management application designed to record, organize, and analyze students' academic grades. It allows users to add, view, update, and delete grade records while generating academic performance summaries.
+The Student Grade Tracker is a data management application designed to help students record, organize, and analyze their academic grades. It supports adding, viewing, updating, and deleting grade records while generating academic performance summaries.
 
 ## Group Members
 
-- Brent Silao
-- Martine Plaza
-- Andres Real
+1. Brent Silao
+2. Martine Plaza
+3. Andres Real
 
 ## Project Objectives
 
-- Organize students' academic grade records.
-- Allow users to create, read, update, and delete records.
-- Store information using JSON files.
+- Organize and manage academic grade records.
+- Implement Create, Read, Update, and Delete (CRUD) operations.
+- Store and retrieve information using JSON files.
 - Calculate average, highest, and lowest grades.
-- Generate meaningful academic performance summaries.
+- Generate academic performance summaries and comparisons.
 
-## Project Files
+## Main Features
 
-The repository will contain the following project documents:
-
-| File | Description |
-|---|---|
-| `Project_Proposal.pdf` | Initial project proposal |
-| `Wireframe.pdf` | Sample application interface and program flow |
-| `Task_Schedule.pdf` | Project timeline and assigned responsibilities |
-
-## Technologies and Concepts
-
-- Python
-- JSON data storage
-- Functions and arguments
-- Iterative control structures
-- Arrays
-- Programming libraries
-
-## Project Status
-
-Project Milestone 1 – Project Proposal and Planning
+1. Add Grade Records
+2. View Grade Records
+3. Update Grade Records
+4. Delete Grade Records
+5. Calculate Average Grades
+6. Generate Academic Performance Reports
+7. Save and Load Records
 
