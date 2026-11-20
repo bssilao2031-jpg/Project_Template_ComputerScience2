@@ -1,5 +1,12 @@
 Members:
+Brent Silao
+Martine Plaza
+Andres Real
 
-Team Members and contribution (since the first quarter)
+Team Members and contribution:
+Silao-Github,Pseudocode,Project proposal
+Plaza-Github,Flowchart,Project proposal
+Real-Github,Project proposal
 
-Update (what feature you did this third quarter)
+Update:
+Almost Done
