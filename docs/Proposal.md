@@ -23,7 +23,12 @@ To implement JSON-based persistent data storage to save and retrieve student gra
 To calculate and present academic statistics, including average, highest, and lowest grades, to help students monitor their academic performance.
 
 
-4. Outline of Feature
+4. Outline of Features
+
+
+
+
+
 
 Feature
 Description
@@ -49,7 +54,6 @@ Student grade records stored in the JSON file.
 
 
 5. Description of Data to be Collected and Stored as Persistent Data (Optional)
-
 (Identify the information/data that your application will collect, store, and retrieve. These data should support the features and functionality of your proposed application.)
 Note: The identified data fields may still be revised and finalized during the Third Quarter, as the concepts of database design and data management will be discussed further during that period. 
 Data Field
@@ -195,3 +199,4 @@ Group Members:
 Brent Silao
 Martine Plaza
 Andres Real
+
