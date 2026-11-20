@@ -1,4 +1,4 @@
- Project Proposal Draft Worksheet
+Project Proposal Draft Worksheet
 Project Milestone 1: Develop the First Draft of the Project Proposal
 1. Project Title
 Project Name: 
@@ -199,4 +199,3 @@ Group Members:
 Brent Silao
 Martine Plaza
 Andres Real
-
