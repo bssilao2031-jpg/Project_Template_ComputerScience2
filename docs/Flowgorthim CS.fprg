@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowgorthim CS"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-26 07:25:30 PM"/>
+        <attribute name="created" value="VVNFUjtMQVBUT1AtQ0c2REFWM0E7MjAyNi0xMS0yNjswNjo1MDowOSBQTTsyNjM5"/>
+        <attribute name="edited" value="VVNFUjtMQVBUT1AtQ0c2REFWM0E7MjAyNi0xMS0yNjswNzoyNTozMCBQTTsxOzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="option, recordCount" type="Integer" array="False" size=""/>
+            <declare name="studentID, studentName, subject, quarter" type="String" array="False" size=""/>
+            <declare name="grade, total, average, highest, lowest" type="Real" array="False" size=""/>
+            <output expression="&quot;STUDENT GRADE TRACKER&quot;" newline="True"/>
+            <output expression="&quot;1. Add Grade Record&quot;" newline="True"/>
+            <output expression="&quot;2. View Grade Records&quot;" newline="True"/>
+            <output expression="&quot;3. Update Grade Record&quot;" newline="True"/>
+            <output expression="&quot;4. Delete Grade Record&quot;" newline="True"/>
+            <output expression="&quot;5. Calculate Grade Statistics&quot;" newline="True"/>
+            <output expression="&quot;6. Generate Performance Report&quot;" newline="True"/>
+            <output expression="&quot;7. Exit&quot;" newline="True"/>
+            <output expression="&quot;Enter your choice:&quot;" newline="True"/>
+            <input variable="option"/>
+            <if expression="option = 1">
+                <then>
+                    <output expression="&quot;Enter Student ID:&quot;" newline="True"/>
+                    <input variable="studentID"/>
+                    <output expression="&quot;Enter Student Name:&quot;" newline="True"/>
+                    <input variable="studentName"/>
+                    <output expression="&quot;Enter Subject:&quot;" newline="True"/>
+                    <input variable="subject"/>
+                    <output expression="&quot;Enter Quarter:&quot;" newline="True"/>
+                    <input variable="quarter"/>
+                    <output expression="&quot;Enter Grade:&quot;" newline="True"/>
+                    <input variable="grade"/>
+                    <if expression="grade &gt;= 0 and grade &lt;= 100">
+                        <then>
+                            <output expression="&quot;Grade information is valid.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Invalid grade. Please enter a grade from 0 to 100.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <output expression="&quot;Add new grade record&quot;" newline="True"/>
+                    <output expression="&quot;Save records to JSON file&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="option = 2">
+                        <then>
+                            <output expression="&quot;Displaying all saved grade records...&quot;" newline="True"/>
+                            <output expression="&quot;Student ID, Student Name, Subject, Quarter, Grade&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="option = 3">
+                                <then>
+                                    <output expression="&quot;Enter Student ID of record to update:&quot;" newline="True"/>
+                                    <input variable="studentID"/>
+                                    <output expression="&quot;Enter updated grade:&quot;" newline="True"/>
+                                    <input variable="grade"/>
+                                    <output expression="&quot;Update selected grade record&quot;" newline="True"/>
+                                    <output expression="&quot;Save updated records to JSON file&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="option = 4">
+                                        <then>
+                                            <output expression="&quot;Enter Student ID of record to delete:&quot;" newline="True"/>
+                                            <input variable="studentID"/>
+                                            <output expression="&quot;Delete selected grade record&quot;" newline="True"/>
+                                            <output expression="&quot;Save updated records to JSON file&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="option = 5">
+                                                <then>
+                                                    <output expression="&quot;Calculating grade statistics...&quot;" newline="True"/>
+                                                    <output expression="&quot;Average Grade:&quot;" newline="True"/>
+                                                    <output expression="&quot;Highest Grade:&quot;" newline="True"/>
+                                                    <output expression="&quot;Lowest Grade:&quot;" newline="True"/>
+                                                    <assign variable="total" expression="0"/>
+                                                    <assign variable="recordCount" expression="0"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="option = 6">
+                                                        <then>
+                                                            <output expression="&quot;Generating academic performance report...&quot;" newline="True"/>
+                                                            <output expression="&quot;Displaying performance report...&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="option = 7">
+                                                                <then>
+                                                                    <output expression="&quot;Saving grade records to JSON file...&quot;" newline="True"/>
+                                                                    <output expression="&quot;Thank you for using Student Grade Tracker!&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Invalid selection. Please choose from 1 to 7.&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
