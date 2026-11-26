@@ -116,7 +116,118 @@ END
 ```
 
 ## 7. Sample Wireframe of the Application
+# Student Grade Tracker — Wireframe
 
+## Main Interface
+
+```text
+========================================
+           STUDENT RECORD
+========================================
+[1] Add Grade Record
+[2] View Grade Records
+[3] Update Grade Record
+[4] Delete Grade Record
+[5] Calculate Grade Statistics
+[6] Generate Performance Report
+[7] Exit
+========================================
+Input option: (input)
+```
+
+**Menu Logic:**
+
+```text
+If option is between 0-7
+    Proceed to selected feature
+Else:
+    Output(Error. Number must be from 1-7.)
+    Return to MAIN interface
+```
+
+---
+
+## Flowchart
+
+### [1] Add Grade Record
+
+1. Input a new record.
+2. Validate if grade is in fit range.
+
+**Return to MAIN interface.**
+
+---
+
+### [2] View Grade Record
+
+1. Display all saved records.
+
+**Return to MAIN interface.**
+
+---
+
+### [3] Update Grade Record
+
+1. Select a grade record.
+2. Input a new grade record.
+3. Output(New grade record).
+
+**Return to MAIN interface.**
+
+---
+
+### [4] Delete Grade Record
+
+1. Select and remove a grade record.
+2. Output(New grade record).
+
+**Return to MAIN interface.**
+
+---
+
+### [5] Calculate Grade Statistics
+
+1. Calculate mean of grades.
+2. Output(Mean of grade records).
+3. Output(Highest of grade records).
+4. Output(Lowest of grade records).
+
+**Return to MAIN interface.**
+
+---
+
+### [6] Generate Performance Report
+
+```text
+If student's grade is 1.00-1.50:
+    Output(Outstanding)
+
+Else if grade is 1.75-2.00:
+    Output(Very Good)
+
+Else if grade is 2.25-2.50:
+    Output(Satisfactory)
+
+Else if grade is 2.75-3.00:
+    Output(Needs Improvement)
+
+Else if grade is 4.00:
+    Output(Failed on condition)
+
+Else if grade is 5.00:
+    Output(Failed)
+
+Else:
+    Output(Invalid grade.)
+```
+
+---
+
+### [7] End Program
+
+```text
+END PROGRAM
+```
 ### Flowchart
 
 The application flowchart illustrates the following process:
