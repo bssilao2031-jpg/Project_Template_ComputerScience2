@@ -1,74 +1,140 @@
-## Data Storage
+# 📌 Project Proposal
 
-The application will use JSON files for persistent data storage. The records will include student IDs, student names, subjects, quarters, and grades.
+## 📝 Project Title
 
-## Programming Concepts
+**Student Grade Tracker: An Academic Performance Monitoring and Analysis System**
 
-- Functions and Arguments
-- Iterative Control Structures
-- Arrays
-- Programming Libraries
-- JSON Data Handling
+---
 
-## Project Documents
+## 🔍 Problem Statement
 
-- `Daffodil_Project_Proposal.pdf` – Contains the eight sections of the initial project proposal.
-- `Student_Grade_Tracker_Wireframe.pdf` – Contains the sample application screens and program flow.
+Students need an organized and convenient way to manage, monitor, and analyze their academic performance. However, keeping track of grades across different subjects and grading periods can become difficult when records are scattered or manually organized.
 
-## Project Status
+The Student Grade Tracker aims to address this problem by providing a system that allows users to manage academic grade records, calculate grade statistics, and generate academic performance reports.
 
-**Project Milestone 1 – Project Proposal and Planning**# Project_Template_ComputerScience2
+The project is relevant to the student dataset because it uses student information and academic grades to organize and analyze academic performance.
 
-# 📊 Data Insights Dashboard Project
+---
 
-This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
+## 🎯 Project Objectives
 
-## 📂 Repository Structure
-- `/data` → Contains sample JSON datasets you can choose from.
-- `/docs` → Place your project proposal and related documentation here.
-- `README.md` → Basic introduction to your project.
+- To develop a program that allows users to add, view, update, and delete student grade records.
+- To implement JSON file handling for saving and loading grade records as persistent data.
+- To calculate grade statistics, including average, highest, and lowest grades, and generate academic performance reports.
 
-## Instructions:
-1. Choose a dataset from the `/data` folder (e.g., students.json, sales.json, movies.json, etc.).
-2. Write your Project Proposal using the provided template (`/docs/proposal_template.md`).
-3. Update this `README.md` to describe your project idea.
-4. Commit and push your changes to GitHub.
+---
 
-##  Getting Started
-- Fork or clone this repository.
-- Open the datasets in the `/data` folder to explore the contents.
-- Follow the proposal template to draft your plan.
+## ⚙️ Planned Features
 
+1. **Add Grade Records** – Allows users to enter student information and academic grades.
+2. **View Grade Records** – Displays previously saved student grade records.
+3. **Update Grade Records** – Allows users to modify existing grade information.
+4. **Delete Grade Records** – Allows users to remove selected grade records.
+5. **Grade Statistics** – Calculates the average, highest, and lowest grades.
+6. **Academic Performance Report** – Generates a summary of academic performance.
+7. **Persistent Data Storage** – Saves and loads grade records using JSON files.
 
-# Student Grade Tracker
+---
 
-**Academic Performance Monitoring and Analysis System**
+## ⌨️ Planned Inputs and Outputs
 
-## Project Overview
+### Inputs
 
-The Student Grade Tracker is a data management application designed to help students record, organize, and analyze their academic grades. It supports adding, viewing, updating, and deleting grade records while generating academic performance summaries.
+- Student ID
+- Student Name
+- Subject
+- Quarter
+- Grade
+- User's selected menu option
 
-## Group Members
+### Outputs
 
-1. Brent Silao
-2. Martine Plaza
-3. Andres Real
+- Displayed student grade records
+- Successfully added, updated, or deleted record messages
+- Calculated average grade
+- Highest grade
+- Lowest grade
+- Academic performance report
+- Invalid selection message
+- Exit confirmation message
 
-## Project Objectives
+---
 
-- Organize and manage academic grade records.
-- Implement Create, Read, Update, and Delete (CRUD) operations.
-- Store and retrieve information using JSON files.
-- Calculate average, highest, and lowest grades.
-- Generate academic performance summaries and comparisons.
+## 🧠 Logic Plan
 
-## Main Features
+The program follows a menu-driven structure. It begins by loading previously saved grade records from a JSON file and displaying the main menu. The user selects an operation, and the program performs the corresponding task. After completing an operation, the program returns to the main menu. This process repeats until the user selects the Exit option, which saves the records before ending the program.
 
-1. Add Grade Records
-2. View Grade Records
-3. Update Grade Records
-4. Delete Grade Records
-5. Calculate Average Grades
-6. Generate Academic Performance Reports
-7. Save and Load Records
+### Pseudocode
 
+```text
+START
+
+Load saved grade records from JSON file
+
+REPEAT
+    Display main menu:
+        1. Add Grade Record
+        2. View Grade Records
+        3. Update Grade Record
+        4. Delete Grade Record
+        5. Calculate Grade Statistics
+        6. Generate Performance Report
+        7. Exit
+
+    Ask user to select an option
+
+    IF option = 1 THEN
+        Enter and validate grade information
+        Add new grade record
+        Save records to JSON file
+
+    ELSE IF option = 2 THEN
+        Display all saved grade records
+
+    ELSE IF option = 3 THEN
+        Select and update grade record
+        Save updated records to JSON file
+
+    ELSE IF option = 4 THEN
+        Select and delete grade record
+        Save updated records to JSON file
+
+    ELSE IF option = 5 THEN
+        Calculate average, highest, and lowest grades
+        Display calculated results
+
+    ELSE IF option = 6 THEN
+        Generate academic performance report
+        Display performance report
+
+    ELSE IF option = 7 THEN
+        Save records to JSON file
+        Display exit message
+
+    ELSE
+        Display invalid selection message
+
+UNTIL user chooses Exit
+
+END
+```
+
+### Flowchart
+
+The program flowchart was designed using **Flowgorithm**. It illustrates the program's main menu, user input, decision-making process, available operations, and exit procedure.
+
+**Flowchart Image:** Insert the exported Flowgorithm flowchart image here.
+
+---
+
+## 📂 GitHub Repository Link
+
+https://github.com/bssilao2031-jpg/Project_Template_ComputerScience2
+
+---
+
+## 👥 Project Team
+
+- Brent Silao
+- Martine Plaza
+- Andres Real
