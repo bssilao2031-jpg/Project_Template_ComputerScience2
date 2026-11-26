@@ -1,17 +1,19 @@
-Members:
-Brent Silao
+## 👥 Team Members
 
-Martine Plaza
+- **Brent Silao**
+- **Martine Plaza**
+- **Andres Real**
 
-Andres Real
+## 🛠️ Team Members and Contributions
 
-Team Members and contribution:
+| Team Member | Contributions |
+|---|---|
+| **Brent Silao** | GitHub Repository Management, Pseudocode, Flowchart, and Project Proposal |
+| **Martine Plaza** | GitHub Repository Management, Wireframe Design, and Project Proposal |
+| **Andres Real** | GitHub Repository Management and Project Proposal |
 
-Silao-Github,Pseudocode,Project proposal
+## 📌 Project Status
 
-Plaza-Github,Flowchart,Project proposal
+**Status:** Almost Complete
 
-Real-Github,Project proposal
-
-Update:
-Almost Done
+The team has completed most of the initial project proposal requirements and is finalizing the remaining tasks.
