@@ -2,7 +2,7 @@
 
 ## 📝 Project Title
 
-**Student Grade Tracker: An Academic Performance Monitoring and Analysis System**
+**Student Grade Tracker: A Program for Managing and Checking Student Grades**
 
 ---
 
