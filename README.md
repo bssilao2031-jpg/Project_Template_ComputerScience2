@@ -123,7 +123,8 @@ END
 
 The program flowchart was designed using **Flowgorithm**. It illustrates the program's main menu, user input, decision-making process, available operations, and exit procedure.
 
-**Flowchart Image:** Insert the exported Flowgorithm flowchart image here.
+**Flowchart Image:** <img width="959" height="520" alt="image" src="https://github.com/user-attachments/assets/42541fb8-6baa-4432-a4c1-4518c2dabac6" />
+
 
 ---
 
