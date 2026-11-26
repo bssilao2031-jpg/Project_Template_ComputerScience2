@@ -130,6 +130,7 @@ The application flowchart illustrates the following process:
 7. Return to the main menu or exit.
 
 **Flowchart Image:** Insert the exported flowchart image here.
+<img width="959" height="520" alt="image" src="https://github.com/user-attachments/assets/4cb11a26-ddb6-4bd0-9bc5-71bb9c8251d8" /> 
 
 ### Screen Descriptions
 
